@@ -7,14 +7,12 @@ This project allows a user to derive testnet BitCoin and Ethereum crypto wallets
 ## Dependencies
 
 In order to run, you must ensure that:
-* The [https://github.com/dan-da/hd-wallet-derive](hd-wallet-derive) repo is added into the "wallet" directory. It was not possible to push the repo to GitHub with this included in it.  
+* The [hd-wallet-derive](https://github.com/dan-da/hd-wallet-derive) repo is added into the "wallet" directory. It was not possible to push the repo to GitHub with this included in it.  
 * The following libraries and technologies are installed in your developer environment:
   * Web3
   * Bit
   * PHP
-  * [https://mycrypto.com/](MyCrypto)
-  
-  * [ETH Fauucet (Kovan)](https://faucet.kovan.network/)
+  * [MyCrypto](https://mycrypto.com/)
 
 ## Instructions
 
@@ -27,11 +25,11 @@ In order to run, you must ensure that:
 
 ### BitCoin
 
-6. Ensure the account you would like to send funds from has been topped up via a [https://coinfaucet.eu/en/btc-testnet/](testnet faucet).
+6. Ensure the account you would like to send funds from has been topped up via a [testnet faucet](https://coinfaucet.eu/en/btc-testnet/).
     * Use the **address** output from the desired account.
 7. Initiate a transaction using the following function:
     * `send_tx(BTCTEST,{sender address from step 6},{receiving address},{amount})`
-8. Monitor the transaction on a [https://tbtc.bitaps.com/](block explorer). 
+8. Monitor the transaction on a [block explorer](https://tbtc.bitaps.com/). 
 
 ## Ethereum
 
