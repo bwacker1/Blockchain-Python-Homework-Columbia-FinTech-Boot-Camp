@@ -31,7 +31,7 @@ In order to run, you must ensure that:
     * `send_tx(BTCTEST,{sender address from step 6},{receiving address},{amount})`
 8. Monitor the transaction on a [block explorer](https://tbtc.bitaps.com/). 
 
-## Ethereum
+### Ethereum
 
 6. Add one of the ETH addresses to the pre-allocated accounts in your **networkname.json** file.
 7. Delete the geth folder in each node, then re-initialize using `geth --datadir nodeX init networkname.json`. This will create a new chain, and will pre-fund the new account.
